@@ -3,3 +3,5 @@
 I made this simple app with Nextjs and Prismic as a headless CMS.
 
 I would have liked more time to make the website look better and more functionality but I already spent 25+ hours on this so this has to do for now.
+
+I'm definitely going to look more into prismic when I'm more comfortable with Nextjs.
