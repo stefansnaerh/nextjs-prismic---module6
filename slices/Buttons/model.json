@@ -1,0 +1,26 @@
+{
+  "id": "buttons",
+  "type": "SharedSlice",
+  "name": "Buttons",
+  "description": "Buttons",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Buttons",
+      "primary": {},
+      "items": {
+        "uid": {
+          "type": "Text",
+          "config": {
+            "label": "UID",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

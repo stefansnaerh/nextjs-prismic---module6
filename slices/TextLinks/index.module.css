@@ -1,0 +1,14 @@
+
+
+
+.linkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    margin: 4em auto;
+}
+
+.button {
+
+}

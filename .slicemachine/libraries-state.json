@@ -1,0 +1,499 @@
+{
+  "slices": {
+    "components": {
+      "button_testing": {
+        "library": "slices",
+        "id": "button_testing",
+        "name": "ButtonTesting",
+        "description": "ButtonTesting",
+        "model": {
+          "id": "button_testing",
+          "type": "SharedSlice",
+          "name": "ButtonTesting",
+          "description": "ButtonTesting",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ButtonTesting",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Voice",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Sunt fugiat do elit irure veniam officia anim duis cupidatat.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "button_testing"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "buttons": {
+        "library": "slices",
+        "id": "buttons",
+        "name": "Buttons",
+        "description": "Buttons",
+        "model": {
+          "id": "buttons",
+          "type": "SharedSlice",
+          "name": "Buttons",
+          "description": "Buttons",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Buttons",
+              "primary": {},
+              "items": {
+                "uid": {
+                  "type": "Text",
+                  "config": {
+                    "label": "UID",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "uid": "giving"
+              }
+            ],
+            "primary": {},
+            "slice_type": "buttons"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "info_buttons": {
+        "library": "slices",
+        "id": "info_buttons",
+        "name": "InfoButtons",
+        "description": "InfoButtons",
+        "model": {
+          "id": "info_buttons",
+          "type": "SharedSlice",
+          "name": "InfoButtons",
+          "description": "InfoButtons",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "InfoButtons",
+              "primary": {},
+              "items": {
+                "uid": {
+                  "type": "Link",
+                  "config": {
+                    "label": "UID",
+                    "placeholder": "dcmælwem",
+                    "allowTargetBlank": false,
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "uid": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              }
+            ],
+            "primary": {},
+            "slice_type": "info_buttons"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "main_slice": {
+        "library": "slices",
+        "id": "main_slice",
+        "name": "MainSlice",
+        "description": "MainSlice",
+        "model": {
+          "id": "main_slice",
+          "type": "SharedSlice",
+          "name": "MainSlice",
+          "description": "MainSlice",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MainSlice",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "overview": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "overview",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading4"
+                  }
+                },
+                "wikilink": {
+                  "type": "Text",
+                  "config": {
+                    "label": "WikiLink",
+                    "placeholder": ""
+                  }
+                },
+                "seeoverview": {
+                  "type": "Link",
+                  "config": {
+                    "label": "seeOverview",
+                    "placeholder": "",
+                    "select": "media"
+                  }
+                },
+                "overviewimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "overviewImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {
+                "statistics_title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "statistics title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading6"
+                  }
+                },
+                "statistics_numbers": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "statistics numbers",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "statistics_title": [
+                  {
+                    "type": "heading6",
+                    "text": "Underline",
+                    "spans": []
+                  }
+                ],
+                "statistics_numbers": [
+                  {
+                    "type": "heading2",
+                    "text": "Scale",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Select",
+                  "spans": []
+                }
+              ],
+              "overview": [
+                {
+                  "type": "heading4",
+                  "text": "Traffic",
+                  "spans": []
+                }
+              ],
+              "wikilink": "situation",
+              "seeoverview": {
+                "link_type": "Media",
+                "name": "mock",
+                "kind": "image",
+                "url": "https://source.unsplash.com/random",
+                "size": "10kB"
+              },
+              "overviewimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869"
+              }
+            },
+            "slice_type": "main_slice"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "testing": {
+        "library": "slices",
+        "id": "testing",
+        "name": "Testing",
+        "description": "Testing",
+        "model": {
+          "id": "testing",
+          "type": "SharedSlice",
+          "name": "Testing",
+          "description": "Testing",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Testing",
+              "primary": {},
+              "items": {
+                "home": {
+                  "type": "Link",
+                  "config": {
+                    "label": "home",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "structure": {
+                  "type": "Link",
+                  "config": {
+                    "label": "structure",
+                    "placeholder": "",
+                    "select": null
+                  }
+                },
+                "geology": {
+                  "type": "Link",
+                  "config": {
+                    "label": "geology",
+                    "placeholder": "",
+                    "select": null
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "home": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "structure": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                },
+                "geology": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {},
+            "slice_type": "testing"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      },
+      "text_links": {
+        "library": "slices",
+        "id": "text_links",
+        "name": "TextLinks",
+        "description": "TextLinks",
+        "model": {
+          "id": "text_links",
+          "type": "SharedSlice",
+          "name": "TextLinks",
+          "description": "TextLinks",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TextLinks",
+              "primary": {
+                "homelink": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "homeLink",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "structurelink": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "structureLink",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "geologylink": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "geologyLink",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "homelink": [
+                {
+                  "type": "paragraph",
+                  "text": "Eiusmod ea culpa enim do exercitation mollit sint esse excepteur sunt enim excepteur duis voluptate tempor. Cupidatat consequat excepteur dolor tempor commodo aliqua aliqua cupidatat anim sit sint velit commodo. Id ea id ut nisi velit in eu sint et qui non anim.",
+                  "spans": []
+                }
+              ],
+              "structurelink": [
+                {
+                  "type": "paragraph",
+                  "text": "Et aliquip esse aliquip est ipsum eiusmod in.",
+                  "spans": []
+                }
+              ],
+              "geologylink": [
+                {
+                  "type": "paragraph",
+                  "text": "Cillum voluptate laborum nisi dolor Lorem labore consectetur quis ad. Consectetur ipsum deserunt ipsum nulla mollit reprehenderit magna reprehenderit adipisicing eiusmod magna non ex.",
+                  "spans": []
+                }
+              ]
+            },
+            "slice_type": "text_links"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

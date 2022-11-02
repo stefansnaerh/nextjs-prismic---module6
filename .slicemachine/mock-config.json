@@ -1,0 +1,71 @@
+{
+  "_cts": {
+    "menu": {},
+    "page": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "slices": {
+    "MainSlice": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "overview": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "statistics_title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "statistics_numbers": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "InfoButtons": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Buttons": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "ButtonTesting": {},
+    "Testing": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "TextLinks": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    }
+  }
+}

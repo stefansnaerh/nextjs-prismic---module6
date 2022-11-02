@@ -1,0 +1,28 @@
+{
+  "id": "info_buttons",
+  "type": "SharedSlice",
+  "name": "InfoButtons",
+  "description": "InfoButtons",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "InfoButtons",
+      "primary": {},
+      "items": {
+        "uid": {
+          "type": "Link",
+          "config": {
+            "label": "UID",
+            "placeholder": "dcmælwem",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

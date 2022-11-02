@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {
+        "home": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "structure": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "geology": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ],
+    "primary": {},
+    "slice_type": "testing"
+  }
+]

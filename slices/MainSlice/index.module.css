@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+
+.container {
+    color: #e0dede;
+    max-width: 600px;
+    margin: 4em auto;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Spartan', sans-serif;
+
+}
+
+
+.planetImg {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+  }
+
+
+
+  .statisticsContainer {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .statisticsBox {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid #c6c6c6;
+    width: 300px;
+    margin: 0.2rem;
+    border-radius: 4px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }

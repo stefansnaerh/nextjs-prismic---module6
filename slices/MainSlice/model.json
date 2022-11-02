@@ -1,0 +1,79 @@
+{
+  "id": "main_slice",
+  "type": "SharedSlice",
+  "name": "MainSlice",
+  "description": "MainSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MainSlice",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        },
+        "overview": {
+          "type": "StructuredText",
+          "config": {
+            "label": "overview",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "wikilink": {
+          "type": "Text",
+          "config": {
+            "label": "WikiLink",
+            "placeholder": ""
+          }
+        },
+        "seeoverview": {
+          "type": "Link",
+          "config": {
+            "label": "seeOverview",
+            "placeholder": "",
+            "select": "media"
+          }
+        },
+        "overviewimage": {
+          "type": "Image",
+          "config": {
+            "label": "overviewImage",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "statistics_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "statistics title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading6"
+          }
+        },
+        "statistics_numbers": {
+          "type": "StructuredText",
+          "config": {
+            "label": "statistics numbers",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
